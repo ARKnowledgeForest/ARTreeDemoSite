@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>知识森林的AR可视化</title>
+
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+                <a href="#download">Download</a>
+            </li>
+            <li>
+                <a href="#technology">Technology</a>
+            </li>
+            <li>
+                <a href="#coming">Release</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Knowledge Forest</h1>
+            <h2>With Augmented Reality</h2>
+            <a href="#download" class="btn-rounded-white">Download APP</a>
+        </div>
+
+        <div id="lead-overlay" style="opacity: 0.8"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="text-align: center">
+                    <h2 class="heading">About</h2>
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        <b>ARKnowledgeForest</b> is an Augmented Reality Application. Compared with traditional applications, we use a more interesting, vivid way to display knowledge and make learning more funny. Using Augmented Reality(AR), we visualize the Knowledge Forest with 3D form. <br><br>
+                        No matter which course or which book, what you need to do is open the APP, scanning any page of the book, then you can see all the key words are framed. Touching the key word you are interested in or want to learn, ARKnowledgeForest wiil automatically build the ARTree of the key word. And then, touch the little ball(knowledge fragments set), you can learn any knowledge fragment you want.<br><br>
+                        <b>Having fun with learning！<i class="fa fa-smile-o"></i></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="introduction" class="background-alt">
+        <h2 class="heading">Introduction by a Video</h2>
+        <div class="container">
+            <video style="width: 70%;" controls poster="images/poster1.jpg">
+                <source src="http://cdn.littlegenius.xin/ARTreeDemoWebARTree.MP4" type="video/mp4">
+                Sorry for failing to play the video. Please make sure your browser support the <code>&lt;video&gt;</code> tag.
+            </video>
+        </div>
+    </div>
+
+    <div id="download">
+        <h2 class="heading">Download</h2>
+
+        <div class="row" style="width: 80%;margin-left: 10%;">
+            <div class="col-md-4">
+                <div class="shadow-large download-box">
+                    <div style="width: 100%;">
+                        <i class="fa fa-android fa-4x"></i>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="button-box">
+                            <div class="temp-box">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow-large download-box">
+                    <div style="width: 100%;">
+                        <i class="fa fa-apple fa-4x"></i>
+                    </div>
+                    <div style="width: 100%;">
+                        <img src="images/ios-qrcode.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow-large download-box">
+                    <div style="width: 100%;">
+                        <i class="fa fa-github  fa-4x" aria-hidden="true"></i>
+                    </div>
+                    <div style="width: 100%;">
+                        <div class="button-box-round">
+                            <button onclick="window.location.href='https://github.com/ARKnowledgeForest/ARKnowledgeForest'">Source Code</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="technology" class="background-alt">
+        <div class="h2div">
+            <h2 class="heading">Technology</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>
+                    <h3><i class="fa fa-check-square-o"></i>&nbsp;What we have achieved</h3>
+                    Scan pages, identify the content and detect keywords.<br><br>
+                    Track the keywords.<br><br>
+                    Automatically build 3D Tree Model based on the data form the keywords' knowledge map.<br><br>
+                    Visualize the Knowledge Map Data by AR technology.<br>
+                    </p>
+                </div>
+                <div id="technology-image" class="col-md-6" style="text-align: center">
+                    <img src="images/technology.png">
+                </div>
+                <div class="col-md-3">
+                    <p>
+                    <h3><i class="fa fa-calendar-check-o"></i>&nbsp;What we are going to finish</h3>
+                    Automatically construct a Sand Table of the knowledge forest.<br><br>
+                    Provide the relationship between different topic and and a referenced learning route.<br><br>
+                    Provide an open API that allows users to access their own data to build AR models.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="coming" class="background">
+        <h2 class="heading">Take a look at the coming release</h2>
+        <div class="container">
+            <video style="width: 70%;" controls poster="images/poster2.png">
+                <source src="http://cdn.littlegenius.xin/ARTreeDemoWebcomingRelease.MP4" type="video/mp4">
+                Sorry for failing to play the video. Please make sure your browser support the <code>&lt;video&gt;</code> tag.
+            </video>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="">
+                <input type="email" name="email" id="getEmail" placeholder="Your email" required>
+                <textarea name="message" id="getMessage" placeholder="Your message" required></textarea>
+                <button type="button" onclick="postEmail()">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function postEmail()
+        {
+            var getemail = document.getElementById("getEmail").value;
+            var getmessage = document.getElementById("getMessage").value;
+
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+                xmlhttp=new XMLHttpRequest();
+            else
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    if(xmlhttp.responseText=="1"){
+                        alert("Thank you for your comments. We have received your message and will reply to you in the first time.");
+                    }else {
+                        alert("We are so sorry that there is something wrong with our site, please try again or check your network.");
+                    }
+                }
+            }
+
+            xmlhttp.open("POST","./php/email.php",true);
+            xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            xmlhttp.send("email="+getemail+"&message="+getmessage);
+        }
+    </script>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 AR KNOWLEDGE TREE
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 copyright">
+                    <p>
+                        <a href="https://labs.xjtudlc.com/labs/" target="_blank">Shannxi Key Lab. of Satellite-Terrestrial Network Tech. R&D</a><br>
+                        Supported by <a href="https://unity.com/" target="_blank">Unity3D</a> <a href="https://enoxsoftware.com/opencvforunity/" target="_blank">OpenCV for Unity</a> <a href="https://www.ptc.com/en/products/augmented-reality" target="_blank">Vuforia</a> <a href="http://ai.baidu.com/" target="_blank">Baidu-AI</a>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
